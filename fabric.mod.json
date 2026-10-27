@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "farodesign",
+  "version": "${version}",
+  "name": "Faro Design",
+  "description": "Waehle fuer einzelne Items und Bloecke aus 60 Texture-Styles pro Kategorie: Glint, Himmel, Ruestung, Totem, Schwert, Axt, Spitzhacke, XP-Flasche, Mace, Goldapfel, Speer, Dreizack, GUI-Farbe, Glowstone, Respawn Anchor, Kristall, Obsidian.",
+  "authors": ["Faro"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.farodesign.FaroDesignClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
